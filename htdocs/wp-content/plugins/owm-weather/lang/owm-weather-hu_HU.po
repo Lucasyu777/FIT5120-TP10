@@ -1,0 +1,2848 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OWM Weather\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/owm-weather\n"
+"POT-Creation-Date: 2022-03-03T16:46:04-05:00\n"
+"PO-Revision-Date: 2022-03-04 09:36-0500\n"
+"Last-Translator: \n"
+"Language-Team: Benjamin DENIS\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Source-Locale: hu_HU\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#. Plugin Name of the plugin
+#: owmweather-admin.php:56
+msgid "OWM Weather"
+msgstr "OWM Weather"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/uwejacobs/owm-weather"
+msgstr "https://github.com/uwejacobs/owm-weather"
+
+#. Description of the plugin
+msgid ""
+"OWM Weather is a powerful weather plugin for WordPress, based on Open "
+"Weather Map API, using Custom Post Types and shortcodes, bundled with a ton "
+"of features."
+msgstr ""
+
+#. Author of the plugin
+msgid "Uwe Jacobs"
+msgstr "Uwe Jacobs"
+
+#. Author URI of the plugin
+msgid "https://github.com/uwejacobs"
+msgstr "https://github.com/uwejacobs"
+
+#: owmweather-admin.php:63
+#, fuzzy
+#| msgid "You like OWM Weather? Don't forget to rate it 5 stars!"
+msgid "Do you like WP OPM Weather? Don't forget to rate it 5 stars!"
+msgstr "Szereted OWM Weather-t? Ne felejtsd el, hogy értékeld 5 csillagra!"
+
+#: owmweather-admin.php:93
+msgid "Consider a donation"
+msgstr ""
+
+#: owmweather-admin.php:107
+msgid "Export Settings"
+msgstr "Exportálás Beállítások"
+
+#: owmweather-admin.php:109
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+"Exportálja a bővítmény beállításait ezen az oldalon, mint egy .json fájlt. "
+"Ez lehetővé teszi, hogy egyszerűen importálni a beállítást a másik oldalon."
+
+#: owmweather-admin.php:114
+msgid "Export"
+msgstr "Exportálás"
+
+#: owmweather-admin.php:121
+msgid "Import Settings"
+msgstr "Importálás Beállítások"
+
+#: owmweather-admin.php:123
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+"Importálja a plugin beállításokat egy .json fájlt. Ez a fájl állítható elő "
+"az exportáló a beállításokat egy másik oldalra a fenti űrlap segítségével."
+
+#: owmweather-admin.php:131
+msgid "Import"
+msgstr "Importálás"
+
+#: owmweather-admin.php:138
+msgid "Reset Settings"
+msgstr "Beállítások Újraindítása"
+
+#: owmweather-admin.php:140
+#, fuzzy
+#| msgid ""
+#| "Reset all OWM Weather global settings. It will not delete your weathers "
+#| "and their indivuals settings."
+msgid ""
+"Reset all OWM Weather global settings. It will not delete your weather pages "
+"and their individual settings."
+msgstr ""
+"Állítsa vissza az összes WP felhő globális beállításokat. Ez nem törli az "
+"időjárási és az egyéni beállításokat."
+
+#: owmweather-admin.php:145
+msgid "Reset settings"
+msgstr "Beállítások újraindítása"
+
+#: owmweather-admin.php:164
+msgid "System"
+msgstr ""
+
+#: owmweather-admin.php:165 owmweather.php:482 owmweather.php:544
+msgid "Basic"
+msgstr "Alap"
+
+#: owmweather-admin.php:166 owmweather.php:483
+msgid "Display"
+msgstr "Kijelző"
+
+#: owmweather-admin.php:167 owmweather.php:484
+msgid "Layout"
+msgstr ""
+
+#: owmweather-admin.php:168 owmweather-admin.php:740 owmweather.php:485
+msgid "Map"
+msgstr "Térkép"
+
+#: owmweather-admin.php:169
+msgid "Import/Export/Reset"
+msgstr "Import/Export/Újraindítás"
+
+#: owmweather-admin.php:170
+msgid "Support"
+msgstr "Támogatás"
+
+#: owmweather-admin.php:185
+msgid "Save changes"
+msgstr "Változtatások mentése"
+
+#: owmweather-admin.php:190
+msgid "OWM Weather cache"
+msgstr "OWM Weather gyorsítótár"
+
+#: owmweather-admin.php:194
+msgid "cache system"
+msgstr "gyorsítótár rendszer"
+
+#: owmweather-admin.php:197
+#, fuzzy
+#| msgid "Click this button to refresh weather cache."
+msgid "Click this button to refresh the weather cache."
+msgstr "Ezzel a gombbal a frissítheted az időjárás gyorsítótárat."
+
+#: owmweather-admin.php:207 owmweather-admin.php:220
+#, fuzzy
+#| msgid "Disable cache"
+msgid "Clear cache!"
+msgstr "Gyorsítótár tiltása"
+
+#: owmweather-admin.php:251
+msgid "Basic settings"
+msgstr "Alap beállítások"
+
+#: owmweather-admin.php:258
+msgid "Bypass measurement system"
+msgstr ""
+
+#: owmweather-admin.php:266
+#, fuzzy
+#| msgid "Bypass date format?"
+msgid "Bypass time format"
+msgstr "Bypass dátum formátum?"
+
+#: owmweather-admin.php:274
+#, fuzzy
+#| msgid "Bypass size?"
+msgid "Bypass timezone"
+msgstr "Bypass méret?"
+
+#: owmweather-admin.php:282
+#, fuzzy
+#| msgid "Open Weather Map API key"
+msgid "Bypass OpenWeatherMap language"
+msgstr "Nyitott időjárás térkép API kulccsal"
+
+#: owmweather-admin.php:291
+msgid "Display settings"
+msgstr "Kijelző beállíások"
+
+#: owmweather-admin.php:298
+#, fuzzy
+#| msgid "Current weather?"
+msgid "Current City Name"
+msgstr "Aktuális időjárás?"
+
+#: owmweather-admin.php:306 owmweather.php:681
+#, fuzzy
+#| msgid "Current weather?"
+msgid "Current weather symbol"
+msgstr "Aktuális időjárás?"
+
+#: owmweather-admin.php:314 owmweather.php:687
+#, fuzzy
+#| msgid "Current weather?"
+msgid "Current temperature"
+msgstr "Aktuális időjárás?"
+
+#: owmweather-admin.php:322 owmweather.php:693
+#, fuzzy
+#| msgid "Current weather?"
+msgid "Current feels-like temperature"
+msgstr "Aktuális időjárás?"
+
+#: owmweather-admin.php:330
+#, fuzzy
+#| msgid "Short condition?"
+msgid "Current short condition"
+msgstr "Rövid állapot?"
+
+#: owmweather-admin.php:338 owmweather.php:708
+#, fuzzy
+#| msgid "Temperatures unit (C / F)?"
+msgid "Temperature unit (C / F)"
+msgstr "Hőmérsékleti egység (C / F)?"
+
+#: owmweather-admin.php:346
+#, fuzzy
+#| msgid "Date"
+msgid "Date"
+msgstr "Dátum"
+
+#: owmweather-admin.php:354 owmweather.php:735
+#, fuzzy
+#| msgid "Sunrise + sunset?"
+msgid "Sunrise + sunset"
+msgstr "Napkelte + naplemente?"
+
+#: owmweather-admin.php:362 owmweather.php:741
+#, fuzzy
+#| msgid "Sunrise + sunset?"
+msgid "Moonrise + moonset"
+msgstr "Napkelte + naplemente?"
+
+#: owmweather-admin.php:370 owmweather.php:750 owmweather.php:2413
+#: owmweather.php:2482 owmweather.php:2598 owmweather.php:2928
+#: owmweather.php:3009 owmweather.php:3078
+#: template/content-owmweather-card1.php:83
+#: template/content-owmweather-card2.php:112
+msgid "Wind"
+msgstr "Szél"
+
+#: owmweather-admin.php:378
+#, fuzzy
+#| msgid "Wind?"
+msgid "Wind unit"
+msgstr "Szél?"
+
+#: owmweather-admin.php:386
+msgid "Wind icon pointer direction"
+msgstr ""
+
+#: owmweather-admin.php:394 owmweather.php:776 owmweather.php:2416
+#: owmweather.php:2602 owmweather.php:2925 owmweather.php:3006
+#: owmweather.php:3075 template/content-owmweather-card1.php:84
+#: template/content-owmweather-card2.php:113
+msgid "Humidity"
+msgstr "Páratartalom"
+
+#: owmweather-admin.php:402 owmweather.php:782 owmweather.php:2419
+#: owmweather.php:2606 owmweather.php:2607 owmweather.php:2608
+#: owmweather.php:2790 owmweather.php:2922 owmweather.php:3003
+#: template/content-owmweather-card1.php:85
+#: template/content-owmweather-card2.php:114
+msgid "Dew Point"
+msgstr ""
+
+#: owmweather-admin.php:410 owmweather.php:788 owmweather.php:2422
+#: owmweather.php:2494 owmweather.php:2612 owmweather.php:2932
+#: owmweather.php:3013 owmweather.php:3082
+#: template/content-owmweather-card1.php:86
+#: template/content-owmweather-card2.php:115
+msgid "Pressure"
+msgstr "Nyomás"
+
+#: owmweather-admin.php:418 owmweather.php:794 owmweather.php:2616
+#: template/content-owmweather-card1.php:87
+#: template/content-owmweather-card2.php:116
+msgid "Cloudiness"
+msgstr "Felhősség"
+
+#: owmweather-admin.php:426 owmweather.php:800 owmweather.php:2431
+#: owmweather.php:2468 owmweather.php:2620 owmweather.php:2915
+#: owmweather.php:2997 owmweather.php:3071
+#: template/content-owmweather-card1.php:88
+#: template/content-owmweather-card2.php:117
+msgid "Precipitation"
+msgstr "Csapadék"
+
+#: owmweather-admin.php:434 owmweather.php:806 owmweather.php:2624
+#: owmweather.php:2935 owmweather.php:3085
+#: template/content-owmweather-card1.php:89
+#: template/content-owmweather-card2.php:118
+msgid "Visibility"
+msgstr ""
+
+#: owmweather-admin.php:442 owmweather.php:812 owmweather.php:2434
+#: owmweather.php:2628 owmweather.php:2938 owmweather.php:3016
+#: template/content-owmweather-card1.php:90
+#: template/content-owmweather-card2.php:119
+msgid "UV Index"
+msgstr ""
+
+#: owmweather-admin.php:450 owmweather.php:818
+msgid "Alerts"
+msgstr ""
+
+#: owmweather-admin.php:458
+msgid "Alerts Button Color"
+msgstr ""
+
+#: owmweather-admin.php:466
+#, fuzzy
+#| msgid "Number of days forecast"
+msgid "Number of forecast hours"
+msgstr "Előrejelzési napok száma"
+
+#: owmweather-admin.php:474 owmweather.php:835
+#, fuzzy
+#| msgid "Display stations?"
+msgid "Display time icons"
+msgstr "Állomás mutatása?"
+
+#: owmweather-admin.php:482
+#, fuzzy
+#| msgid "Number of days forecast"
+msgid "Number of forecast days"
+msgstr "Előrejelzési napok száma"
+
+#: owmweather-admin.php:490
+#, fuzzy
+#| msgid "Precipitations forecast?"
+msgid "Precipitations forecast"
+msgstr "A csapadék előrejelzése?"
+
+#: owmweather-admin.php:498
+#, fuzzy
+#| msgid "Length name days:"
+msgid "Length day names:"
+msgstr "Névnapok hossza"
+
+#: owmweather-admin.php:506 owmweather.php:879
+#, fuzzy
+#| msgid "Link to OpenWeatherMap?"
+msgid "Link to OpenWeatherMap"
+msgstr "Link az Nyitott időjárás térképhez?"
+
+#: owmweather-admin.php:514 owmweather.php:886
+#, fuzzy
+#| msgid "Update date?"
+msgid "Data Update Time"
+msgstr "Frissítés dátum"
+
+#: owmweather-admin.php:523
+#, fuzzy
+#| msgid "Map settings"
+msgid "Layout settings"
+msgstr "Térkép beállítások"
+
+#: owmweather-admin.php:554
+msgid "Spinner"
+msgstr ""
+
+#: owmweather-admin.php:562 owmweather.php:1006
+#, fuzzy
+#| msgid "Disable CSS3 animations, transformations and transitions?"
+msgid "Disable animations for main icon"
+msgstr "Tiltsa CSS3 animációkat, átalakulásokat és átmeneteket?"
+
+#: owmweather-admin.php:570 owmweather.php:953 owmweather.php:1026
+#: owmweather.php:1066
+msgid "Background color"
+msgstr "Háttér szín"
+
+#: owmweather-admin.php:578
+#, fuzzy
+#| msgid "Background color"
+msgid "Background Image"
+msgstr "Háttér szín"
+
+#: owmweather-admin.php:586 owmweather.php:966 owmweather.php:1030
+msgid "Text color"
+msgstr "Szöveg szín"
+
+#: owmweather-admin.php:594 owmweather.php:970 owmweather.php:1034
+#: owmweather.php:1070
+msgid "Border color"
+msgstr "Keret szín"
+
+#: owmweather-admin.php:602
+#, fuzzy
+#| msgid "Map height (in px)"
+msgid "Border width (in px)"
+msgstr "Térkép hossza (pixelbe)"
+
+#: owmweather-admin.php:610 owmweather.php:978 owmweather.php:1042
+#: owmweather.php:1078
+#, fuzzy
+#| msgid "Border color"
+msgid "Border style"
+msgstr "Keret szín"
+
+#: owmweather-admin.php:618
+#, fuzzy
+#| msgid "Border color"
+msgid "Border radius"
+msgstr "Keret szín"
+
+#: owmweather-admin.php:626 owmweather.php:1010
+#, fuzzy
+#| msgid "Weather size?"
+msgid "Weather size"
+msgstr "Időjárás méret?"
+
+#: owmweather-admin.php:635 owmweather.php:1018
+msgid "Custom CSS"
+msgstr "Egyéni CSS"
+
+#: owmweather-admin.php:643
+#, fuzzy
+#| msgid "Background color"
+msgid "Table background color"
+msgstr "Háttér szín"
+
+#: owmweather-admin.php:651
+#, fuzzy
+#| msgid "Text color"
+msgid "Table text color"
+msgstr "Szöveg szín"
+
+#: owmweather-admin.php:659
+#, fuzzy
+#| msgid "Border color"
+msgid "Table border color"
+msgstr "Keret szín"
+
+#: owmweather-admin.php:667
+msgid "Table border width (in px)"
+msgstr ""
+
+#: owmweather-admin.php:675
+#, fuzzy
+#| msgid "Border color"
+msgid "Table border style"
+msgstr "Keret szín"
+
+#: owmweather-admin.php:683
+#, fuzzy
+#| msgid "Border color"
+msgid "Table border radius"
+msgstr "Keret szín"
+
+#: owmweather-admin.php:692
+msgid "Advanced settings"
+msgstr "Haladó beállítások"
+
+#: owmweather-admin.php:699
+#, fuzzy
+#| msgid "Disable cache"
+msgid "Disable cache"
+msgstr "Gyorsítótár tiltása"
+
+#: owmweather-admin.php:707
+#, fuzzy
+#| msgid "Time cache refresh (in minutes)"
+msgid "Time until cache refresh (in minutes)"
+msgstr "Gyorsítótár idejének frissítése (percekben)"
+
+#: owmweather-admin.php:715
+#, fuzzy
+#| msgid "Open Weather Map API key"
+msgid "Open Weather Map API key"
+msgstr "Nyitott időjárás térkép API kulccsal"
+
+#: owmweather-admin.php:723
+#, fuzzy
+#| msgid "Disable Bootstrap Modal JS?"
+msgid "Disable Bootstrap Modal JS"
+msgstr "Kikapcsolja Bootstrap modális JS-t?"
+
+#: owmweather-admin.php:733
+msgid "Map settings"
+msgstr "Térkép beállítások"
+
+#: owmweather-admin.php:748
+#, fuzzy
+#| msgid "Map height"
+msgid "Map height"
+msgstr "Térkép hossza"
+
+#: owmweather-admin.php:756 owmweather.php:1122
+msgid "Layers opacity"
+msgstr "Rétegek átlátszósága"
+
+#: owmweather-admin.php:764 owmweather.php:1138
+msgid "Zoom"
+msgstr "Zoom"
+
+#: owmweather-admin.php:772
+#, fuzzy
+#| msgid "Disable zoom wheel?"
+msgid "Disable zoom wheel"
+msgstr "Zoom kerék tiltása?"
+
+#: owmweather-admin.php:780
+#, fuzzy
+#| msgid "Clouds?"
+msgid "Cloud Layer"
+msgstr "Felhők"
+
+#: owmweather-admin.php:788
+#, fuzzy
+#| msgid "Precipitation?"
+msgid "Precipitation Layer"
+msgstr "Csapadék?"
+
+#: owmweather-admin.php:796
+#, fuzzy
+#| msgid "Snow?"
+msgid "Snow Layer"
+msgstr "Hó?"
+
+#: owmweather-admin.php:804
+#, fuzzy
+#| msgid "Wind?"
+msgid "Wind Layer"
+msgstr "Szél?"
+
+#: owmweather-admin.php:812
+#, fuzzy
+#| msgid "Temperatures?"
+msgid "Temperature Layer"
+msgstr "Hőmérséklet?"
+
+#: owmweather-admin.php:820
+#, fuzzy
+#| msgid "Pressure?"
+msgid "Pressure Layer"
+msgstr "Nyomás"
+
+#: owmweather-admin.php:828
+#, fuzzy
+#| msgid "Wind?"
+msgid "Wind rose Layer"
+msgstr "Szél?"
+
+#: owmweather-admin.php:888
+#, fuzzy
+#| msgid "Basic settings to bypass:"
+msgid "Basic settings to bypass on all weather:"
+msgstr "Alap beállítások bypassnál"
+
+#: owmweather-admin.php:894
+#, fuzzy
+#| msgid "Display settings to bypass:"
+msgid "Display settings to bypass on all weather:"
+msgstr "Kijelző beállítások a bypassnál"
+
+#: owmweather-admin.php:899
+#, fuzzy
+#| msgid "Map settings to bypass:"
+msgid "Layout settings to bypass on all weather:"
+msgstr "Térkép beállítások bypassnál:"
+
+#: owmweather-admin.php:904
+#, fuzzy
+#| msgid "OWM Weather Premium"
+msgid "OWM Weather System settings:"
+msgstr "OWM Weather Prémium"
+
+#: owmweather-admin.php:909
+#, fuzzy
+#| msgid "Map settings to bypass:"
+msgid "Map settings to bypass on all weather:"
+msgstr "Térkép beállítások bypassnál:"
+
+#: owmweather-admin.php:914
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: owmweather-admin.php:928 owmweather-admin.php:945 owmweather-admin.php:961
+#: owmweather-admin.php:998 owmweather-admin.php:1054 owmweather-admin.php:1083
+#: owmweather-admin.php:1105 owmweather-admin.php:1137
+#: owmweather-admin.php:1187 owmweather-admin.php:1210
+#: owmweather-admin.php:1284 owmweather-admin.php:1323
+#: owmweather-admin.php:1366 owmweather-admin.php:1456
+#: owmweather-admin.php:1481 owmweather-admin.php:1756
+#: owmweather-admin.php:1779
+msgid "No bypass"
+msgstr ""
+
+#: owmweather-admin.php:931 owmweather.php:553
+msgid "Imperial"
+msgstr "Angolszász"
+
+#: owmweather-admin.php:934 owmweather.php:554
+msgid "Metric"
+msgstr "Metrikus"
+
+#: owmweather-admin.php:949 owmweather.php:560
+msgid "12 h"
+msgstr "12 órás"
+
+#: owmweather-admin.php:952 owmweather.php:561
+msgid "24 h"
+msgstr "24 órás"
+
+#: owmweather-admin.php:962 owmweather.php:567
+#, fuzzy
+#| msgid "Bypass default WordPress timezone setting?"
+msgid "WordPress timezone"
+msgstr "Bypass alapértelmezett WordPress időzónát beállításnál?"
+
+#: owmweather-admin.php:963 owmweather.php:568
+msgid "Local timezone"
+msgstr ""
+
+#: owmweather-admin.php:964 owmweather.php:569
+msgid "UTC -12"
+msgstr "UTC -12"
+
+#: owmweather-admin.php:965 owmweather.php:570
+msgid "UTC -11"
+msgstr "UTC -11"
+
+#: owmweather-admin.php:966 owmweather.php:571
+msgid "UTC -10"
+msgstr "UTC -10"
+
+#: owmweather-admin.php:967 owmweather.php:572
+msgid "UTC -9"
+msgstr "UTC -9"
+
+#: owmweather-admin.php:968 owmweather.php:573
+msgid "UTC -8"
+msgstr "UTC -8"
+
+#: owmweather-admin.php:969 owmweather.php:574
+msgid "UTC -7"
+msgstr "UTC -7"
+
+#: owmweather-admin.php:970 owmweather.php:575
+msgid "UTC -6"
+msgstr "UTC -6"
+
+#: owmweather-admin.php:971 owmweather.php:576
+msgid "UTC -5"
+msgstr "UTC -5"
+
+#: owmweather-admin.php:972 owmweather.php:577
+msgid "UTC -4"
+msgstr "UTC -4"
+
+#: owmweather-admin.php:973 owmweather.php:578
+msgid "UTC -3"
+msgstr "UTC -3"
+
+#: owmweather-admin.php:974 owmweather.php:579
+msgid "UTC -2"
+msgstr "UTC -2"
+
+#: owmweather-admin.php:975 owmweather.php:580
+msgid "UTC -1"
+msgstr "UTC -1"
+
+#: owmweather-admin.php:976 owmweather.php:581
+msgid "UTC 0"
+msgstr "UTC 0"
+
+#: owmweather-admin.php:977 owmweather.php:582
+msgid "UTC +1"
+msgstr "UTC +1"
+
+#: owmweather-admin.php:978 owmweather.php:583
+msgid "UTC +2"
+msgstr "UTC +2"
+
+#: owmweather-admin.php:979 owmweather.php:584
+msgid "UTC +3"
+msgstr "UTC +3"
+
+#: owmweather-admin.php:980 owmweather.php:585
+msgid "UTC +4"
+msgstr "UTC +4"
+
+#: owmweather-admin.php:981 owmweather.php:586
+msgid "UTC +5"
+msgstr "UTC +5"
+
+#: owmweather-admin.php:982 owmweather.php:587
+msgid "UTC +6"
+msgstr "UTC +6"
+
+#: owmweather-admin.php:983 owmweather.php:588
+msgid "UTC +7"
+msgstr "UTC +7"
+
+#: owmweather-admin.php:984 owmweather.php:589
+msgid "UTC +8"
+msgstr "UTC +8"
+
+#: owmweather-admin.php:985 owmweather.php:590
+msgid "UTC +9"
+msgstr "UTC +9"
+
+#: owmweather-admin.php:986 owmweather.php:591
+msgid "UTC +10"
+msgstr "UTC +10"
+
+#: owmweather-admin.php:987 owmweather.php:592
+msgid "UTC +11"
+msgstr "UTC +11"
+
+#: owmweather-admin.php:988 owmweather.php:593
+msgid "UTC +12"
+msgstr "UTC +12"
+
+#: owmweather-admin.php:996 owmweather.php:598
+msgid ""
+"This is the language for the data from OpenWeatherMap, not for this plugin. "
+"If set to Default, it will try to use the WordPress site language first with "
+"fallback to English."
+msgstr ""
+
+#: owmweather-admin.php:999 owmweather-admin.php:1055 owmweather-admin.php:1084
+#: owmweather.php:600 owmweather.php:897 owmweather.php:915
+msgid "Default"
+msgstr ""
+
+#: owmweather-admin.php:1000 owmweather.php:601
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: owmweather-admin.php:1001 owmweather.php:602
+msgid "Albanian"
+msgstr "Albanian"
+
+#: owmweather-admin.php:1002 owmweather.php:603
+msgid "Arabic"
+msgstr "Arabic"
+
+#: owmweather-admin.php:1003 owmweather.php:604
+msgid "Azerbaijani"
+msgstr "Azerbaijani"
+
+#: owmweather-admin.php:1004 owmweather.php:605
+msgid "Basque"
+msgstr "Basque"
+
+#: owmweather-admin.php:1005 owmweather.php:606
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: owmweather-admin.php:1006 owmweather.php:607
+msgid "Catalan"
+msgstr "Catalan"
+
+#: owmweather-admin.php:1007 owmweather.php:608
+msgid "Chinese Simplified"
+msgstr "Chinese Simplified"
+
+#: owmweather-admin.php:1008 owmweather.php:609
+msgid "Chinese Traditional"
+msgstr "Chinese Traditional"
+
+#: owmweather-admin.php:1009 owmweather.php:610
+msgid "Croatian"
+msgstr "Croatian"
+
+#: owmweather-admin.php:1010 owmweather.php:611
+msgid "Czech"
+msgstr "Czech"
+
+#: owmweather-admin.php:1011 owmweather.php:612
+msgid "Danish"
+msgstr "Danish"
+
+#: owmweather-admin.php:1012 owmweather.php:613
+msgid "Dutch"
+msgstr "Dutch"
+
+#: owmweather-admin.php:1013 owmweather.php:614
+msgid "English"
+msgstr "English"
+
+#: owmweather-admin.php:1014 owmweather.php:615
+msgid "Finnish"
+msgstr "Finnish"
+
+#: owmweather-admin.php:1015 owmweather.php:616
+msgid "French"
+msgstr "French"
+
+#: owmweather-admin.php:1016 owmweather.php:617
+msgid "Galician"
+msgstr "Galician"
+
+#: owmweather-admin.php:1017 owmweather.php:618
+msgid "German"
+msgstr "German"
+
+#: owmweather-admin.php:1018 owmweather.php:619
+msgid "Greek"
+msgstr "Greek"
+
+#: owmweather-admin.php:1019 owmweather.php:620
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: owmweather-admin.php:1020 owmweather.php:621
+msgid "Hindi"
+msgstr "Hindi"
+
+#: owmweather-admin.php:1021 owmweather.php:622
+msgid "Hungarian"
+msgstr "Hungarian"
+
+#: owmweather-admin.php:1022 owmweather.php:623
+msgid "Indonesian"
+msgstr "Indonesian"
+
+#: owmweather-admin.php:1023 owmweather.php:624
+msgid "Italian"
+msgstr "Italian"
+
+#: owmweather-admin.php:1024 owmweather.php:625
+msgid "Japanese"
+msgstr "Japanese"
+
+#: owmweather-admin.php:1025 owmweather.php:626
+msgid "Korean"
+msgstr "Korean"
+
+#: owmweather-admin.php:1026 owmweather.php:627
+msgid "Latvian"
+msgstr "Latvian"
+
+#: owmweather-admin.php:1027 owmweather.php:628
+msgid "Lithuanian"
+msgstr "Lithuanian"
+
+#: owmweather-admin.php:1028 owmweather.php:629
+msgid "Macedonian"
+msgstr "Macedonian"
+
+#: owmweather-admin.php:1029 owmweather.php:630
+msgid "Norwegian"
+msgstr "Norwegian"
+
+#: owmweather-admin.php:1030 owmweather.php:631
+msgid "Persian (Farsi)"
+msgstr "Persian (Farsi)"
+
+#: owmweather-admin.php:1031 owmweather.php:632
+msgid "Polish"
+msgstr "Polish"
+
+#: owmweather-admin.php:1032 owmweather.php:633
+msgid "Portuguese"
+msgstr "Portuguese"
+
+#: owmweather-admin.php:1033 owmweather.php:634
+msgid "Português Brasil"
+msgstr "Português Brasil"
+
+#: owmweather-admin.php:1034 owmweather.php:635
+msgid "Romanian"
+msgstr "Romanian"
+
+#: owmweather-admin.php:1035 owmweather.php:636
+msgid "Russian"
+msgstr "Russian"
+
+#: owmweather-admin.php:1036 owmweather.php:637
+msgid "Serbian"
+msgstr "Serbian"
+
+#: owmweather-admin.php:1037 owmweather.php:638
+msgid "Swedish"
+msgstr "Swedish"
+
+#: owmweather-admin.php:1038 owmweather.php:639
+msgid "Slovak"
+msgstr "Slovak"
+
+#: owmweather-admin.php:1039 owmweather.php:640
+msgid "Slovenian"
+msgstr "Slovenian"
+
+#: owmweather-admin.php:1040 owmweather.php:641
+msgid "Spanish"
+msgstr "Spanish"
+
+#: owmweather-admin.php:1041 owmweather.php:642
+msgid "Thai"
+msgstr "Thai"
+
+#: owmweather-admin.php:1042 owmweather.php:643
+msgid "Turkish"
+msgstr "Turkish"
+
+#: owmweather-admin.php:1043 owmweather.php:644
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: owmweather-admin.php:1044 owmweather.php:645
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: owmweather-admin.php:1045 owmweather.php:646
+msgid "Zulu"
+msgstr "Zulu"
+
+#: owmweather-admin.php:1056 owmweather.php:916
+msgid "Arvo"
+msgstr "Arvo"
+
+#: owmweather-admin.php:1057 owmweather.php:917
+msgid "Asap"
+msgstr "Asap"
+
+#: owmweather-admin.php:1058 owmweather.php:918
+msgid "Bitter"
+msgstr "Bitter"
+
+#: owmweather-admin.php:1059 owmweather.php:919
+msgid "Droid Serif"
+msgstr "Droid Serif"
+
+#: owmweather-admin.php:1060 owmweather.php:920
+msgid "Exo 2"
+msgstr "Exo 2"
+
+#: owmweather-admin.php:1061 owmweather.php:921
+msgid "Francois One"
+msgstr "Francois One"
+
+#: owmweather-admin.php:1062 owmweather.php:922
+msgid "Inconsolata"
+msgstr "Inconsolata"
+
+#: owmweather-admin.php:1063 owmweather.php:923
+msgid "Josefin Sans"
+msgstr "Josefin Sans"
+
+#: owmweather-admin.php:1064 owmweather.php:924
+msgid "Lato"
+msgstr "Lato"
+
+#: owmweather-admin.php:1065 owmweather.php:925
+msgid "Merriweather Sans"
+msgstr "Merriweather Sans"
+
+#: owmweather-admin.php:1066 owmweather.php:926
+msgid "Nunito"
+msgstr "Nunito"
+
+#: owmweather-admin.php:1067 owmweather.php:927
+msgid "Open Sans"
+msgstr "Open Sans"
+
+#: owmweather-admin.php:1068 owmweather.php:928
+msgid "Oswald"
+msgstr "Oswald"
+
+#: owmweather-admin.php:1069 owmweather.php:929
+msgid "Pacifico"
+msgstr "Pacifico"
+
+#: owmweather-admin.php:1070 owmweather.php:930
+msgid "Roboto"
+msgstr "Roboto"
+
+#: owmweather-admin.php:1071 owmweather.php:931
+msgid "Signika"
+msgstr "Signika"
+
+#: owmweather-admin.php:1072 owmweather.php:932
+msgid "Source Sans Pro"
+msgstr "Source Sans Pro"
+
+#: owmweather-admin.php:1073 owmweather.php:933
+msgid "Tangerine"
+msgstr "Tangerine"
+
+#: owmweather-admin.php:1074 owmweather.php:934
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: owmweather-admin.php:1085 owmweather.php:898
+msgid "Card 1"
+msgstr ""
+
+#: owmweather-admin.php:1086 owmweather.php:899
+msgid "Card 2"
+msgstr ""
+
+#: owmweather-admin.php:1087 owmweather.php:900
+msgid "Chart 1"
+msgstr ""
+
+#: owmweather-admin.php:1088 owmweather.php:901
+msgid "Chart 2"
+msgstr ""
+
+#: owmweather-admin.php:1089 owmweather.php:905
+msgid "Slider 1"
+msgstr ""
+
+#: owmweather-admin.php:1090 owmweather.php:906
+msgid "Slider 2"
+msgstr ""
+
+#: owmweather-admin.php:1091 owmweather.php:902
+msgid "Table 1"
+msgstr ""
+
+#: owmweather-admin.php:1092 owmweather.php:903
+msgid "Table 2"
+msgstr ""
+
+#: owmweather-admin.php:1093 owmweather.php:904
+msgid "Table 3"
+msgstr ""
+
+#: owmweather-admin.php:1094 owmweather.php:907
+#, fuzzy
+#| msgid "Custom CSS"
+msgid "Custom 1"
+msgstr "Egyéni CSS"
+
+#: owmweather-admin.php:1095 owmweather.php:908
+#, fuzzy
+#| msgid "Custom CSS"
+msgid "Custom 2"
+msgstr "Egyéni CSS"
+
+#: owmweather-admin.php:1096 owmweather.php:909
+msgid "Debug"
+msgstr ""
+
+#: owmweather-admin.php:1106 owmweather.php:941
+msgid "Climacons"
+msgstr ""
+
+#: owmweather-admin.php:1107 owmweather.php:942
+#, fuzzy
+#| msgid "Open Weather Map API key"
+msgid "Open Weather Map"
+msgstr "Nyitott időjárás térkép API kulccsal"
+
+#: owmweather-admin.php:1108 owmweather.php:943
+#, fuzzy
+#| msgid "Weather"
+msgid "Weather Icons"
+msgstr "Időjárás"
+
+#: owmweather-admin.php:1109 owmweather.php:944
+#, fuzzy
+#| msgid "Hour Forecast?"
+msgid "Forecast"
+msgstr "Órás Előrejelzés"
+
+#: owmweather-admin.php:1110 owmweather.php:945
+msgid "Dripicons"
+msgstr ""
+
+#: owmweather-admin.php:1111 owmweather.php:946
+msgid "Pixeden"
+msgstr ""
+
+#: owmweather-admin.php:1143 owmweather-admin.php:1287
+#: owmweather-admin.php:1326 owmweather.php:844 owmweather.php:3292
+msgid "None"
+msgstr ""
+
+#: owmweather-admin.php:1150 owmweather.php:723
+#, fuzzy
+#| msgid "Day of the week (eg: Sunday)?"
+msgid "Day of the week (eg: Sunday)"
+msgstr "A hét napja (pl: vasárnap)?"
+
+#: owmweather-admin.php:1157
+#, fuzzy
+#| msgid "Todays date?"
+msgid "Today's date"
+msgstr "Mai dátum?"
+
+#: owmweather-admin.php:1190 owmweather.php:756
+msgid "mi/h"
+msgstr ""
+
+#: owmweather-admin.php:1193 owmweather.php:757
+msgid "m/s"
+msgstr ""
+
+#: owmweather-admin.php:1196 owmweather.php:758
+msgid "km/h"
+msgstr ""
+
+#: owmweather-admin.php:1199 owmweather.php:759
+msgid "kt"
+msgstr ""
+
+#: owmweather-admin.php:1213
+msgid "direction of the wind"
+msgstr ""
+
+#: owmweather-admin.php:1216
+msgid "source of the wind flow"
+msgstr ""
+
+#: owmweather-admin.php:1329 owmweather.php:845 owmweather.php:2394
+#: owmweather.php:2407
+msgid "Today"
+msgstr "Ma"
+
+#: owmweather-admin.php:1332 owmweather.php:846
+#, fuzzy
+#| msgid "Todays date?"
+msgid "Today + 1 day"
+msgstr "Mai dátum?"
+
+#: owmweather-admin.php:1335 owmweather.php:847
+#, fuzzy
+#| msgid "Todays date?"
+msgid "Today + 2 days"
+msgstr "Mai dátum?"
+
+#: owmweather-admin.php:1338 owmweather.php:848
+#, fuzzy
+#| msgid "Todays date?"
+msgid "Today + 3 days"
+msgstr "Mai dátum?"
+
+#: owmweather-admin.php:1341 owmweather.php:849
+#, fuzzy
+#| msgid "Todays date?"
+msgid "Today + 4 days"
+msgstr "Mai dátum?"
+
+#: owmweather-admin.php:1344 owmweather.php:850
+#, fuzzy
+#| msgid "Todays date?"
+msgid "Today + 5 days"
+msgstr "Mai dátum?"
+
+#: owmweather-admin.php:1347 owmweather.php:851
+#, fuzzy
+#| msgid "Todays date?"
+msgid "Today + 6 days"
+msgstr "Mai dátum?"
+
+#: owmweather-admin.php:1350 owmweather.php:852
+#, fuzzy
+#| msgid "Todays date?"
+msgid "Today + 7 days"
+msgstr "Mai dátum?"
+
+#: owmweather-admin.php:1373
+msgid "Short days names"
+msgstr "Rövid névnapok"
+
+#: owmweather-admin.php:1380
+msgid "Normal days names"
+msgstr "Normál névnapok"
+
+#: owmweather-admin.php:1420 owmweather.php:961
+msgid "Select image"
+msgstr ""
+
+#: owmweather-admin.php:1457 owmweather.php:980 owmweather.php:1044
+#: owmweather.php:1080
+msgid "Solid"
+msgstr ""
+
+#: owmweather-admin.php:1458 owmweather.php:981 owmweather.php:1045
+#: owmweather.php:1081
+msgid "Dotted"
+msgstr ""
+
+#: owmweather-admin.php:1459 owmweather.php:982 owmweather.php:1046
+#: owmweather.php:1082
+msgid "Dashed"
+msgstr ""
+
+#: owmweather-admin.php:1460 owmweather.php:983 owmweather.php:1047
+#: owmweather.php:1083
+msgid "Double"
+msgstr ""
+
+#: owmweather-admin.php:1461 owmweather.php:984 owmweather.php:1048
+#: owmweather.php:1084
+msgid "Groove"
+msgstr ""
+
+#: owmweather-admin.php:1462 owmweather.php:985 owmweather.php:1049
+#: owmweather.php:1085
+msgid "Inset"
+msgstr ""
+
+#: owmweather-admin.php:1463 owmweather.php:986 owmweather.php:1050
+#: owmweather.php:1086
+msgid "Outset"
+msgstr ""
+
+#: owmweather-admin.php:1464 owmweather.php:987 owmweather.php:1051
+#: owmweather.php:1087
+msgid "Ridge"
+msgstr ""
+
+#: owmweather-admin.php:1484 owmweather.php:1012
+msgid "Small"
+msgstr "Kicsi"
+
+#: owmweather-admin.php:1487 owmweather.php:1013
+msgid "Medium"
+msgstr "Közepes"
+
+#: owmweather-admin.php:1490 owmweather.php:1014
+msgid "Large"
+msgstr "Nagy"
+
+#: owmweather-admin.php:1553
+#, fuzzy
+#| msgid "Strongly recommended: "
+msgid "(Not recommended!)"
+msgstr "Erősen ajánlott:"
+
+#: owmweather-admin.php:1561
+msgid "Default value: 30 minutes"
+msgstr "Alapértelmezett érték: 30 perc"
+
+#: owmweather-admin.php:1569
+msgid "Strongly recommended: "
+msgstr "Erősen ajánlott: "
+
+#: owmweather-admin.php:1569
+#, fuzzy
+#| msgid "Strongly recommended: get your free OWM API key here"
+msgid "Get your free OWM API key here"
+msgstr "Erősen ajánlott: kap a szabad SAJÁT API kulcsot itt"
+
+#: owmweather-admin.php:1579
+#, fuzzy
+#| msgid ""
+#| "Disable Bootstrap Modal JS? (disable this if you already include "
+#| "Bootstrap JS in your theme)"
+msgid "(Check this if you already include Bootstrap in your theme)"
+msgstr ""
+"Kikapcsolja Bootstrap modális JS-t? (Kikapcsolja ezt, ha már tartalmazza "
+"Bootstrap JS a témát)"
+
+#: owmweather-admin.php:1746
+#, fuzzy
+#| msgid "Problem with OWM Weather?"
+msgid "Having a problem with OWM Weather?"
+msgstr "OWM Weather-val probléma van?"
+
+#: owmweather-admin.php:1747
+msgid "OWM Weather Forum on WordPress.org"
+msgstr "OWM Weather Fórum a WordPress.org-on"
+
+#: owmweather-admin.php:1763 owmweather-admin.php:1786
+#, fuzzy
+#| msgid "Display wind on all weather?"
+msgid "Show on all weather"
+msgstr "Szél kijelzése minden időjárásra?"
+
+#: owmweather-admin.php:1770 owmweather-admin.php:1793
+#, fuzzy
+#| msgid "Display pressure on all weather?"
+msgid "Suppress on all weather"
+msgstr "Nyomás kijelzése minden időjárásra?"
+
+#: owmweather-admin.php:1807
+msgid "Setup OWM Weather"
+msgstr ""
+
+#: owmweather-admin.php:1812
+msgid "Leave all other settings as is for now and hit \"Save changes\"."
+msgstr ""
+
+#: owmweather-admin.php:1817
+msgid "Create your first weather"
+msgstr ""
+
+#: owmweather-export.php:99
+msgid "Please upload a file to import"
+msgstr "Kérjük, töltsön fel egy fájlt importáláshoz"
+
+#: owmweather-export.php:104
+msgid "Please upload a valid .json file"
+msgstr "Kérem töltsön fel egy érvényes .json fájlt"
+
+#: owmweather-pointers.php:32
+#, fuzzy
+#| msgid "Reset settings"
+msgid "Before starting:"
+msgstr "Beállítások újraindítása"
+
+#: owmweather-pointers.php:32
+#, fuzzy
+#| msgid "Open Weather Map API key"
+msgid "Enter your own OpenWeatherMap API key in"
+msgstr "Nyitott időjárás térkép API kulccsal"
+
+#: owmweather-pointers.php:32
+msgid "Advanced Settings!"
+msgstr ""
+
+#: owmweather-widget.php:32
+#, fuzzy
+#| msgid "Please select a weather via configure link"
+msgid "Please select a weather via the configure link"
+msgstr "Kérjük, válasszon ki egy időjárás útvonalat kapcsolati beállítást"
+
+#: owmweather-widget.php:54
+msgid "Select the weather to display:"
+msgstr "Válaszd ki időjárás a kijelzőn:"
+
+#: owmweather.php:68
+msgid "Settings"
+msgstr "Beállítások"
+
+#: owmweather.php:345
+msgid "Duplicate this item"
+msgstr "Másolat erről az elemről"
+
+#: owmweather.php:345
+msgid "Duplicate"
+msgstr "Másolat"
+
+#: owmweather.php:356
+#, fuzzy
+#| msgid "OWM Weather Premium"
+msgid "OWM Weather Settings"
+msgstr "OWM Weather Prémium"
+
+#: owmweather.php:356
+msgid "OWM Weather global settings"
+msgstr ""
+
+#: owmweather.php:362
+msgid "Copy and paste this shortcode anywhere in posts, pages, text widgets: "
+msgstr ""
+"Másolás és beillesztés rövidkódja bárhová a bejegyzésbe, oldalakba, szöveges "
+"widgetekbe: "
+
+#: owmweather.php:370
+msgid ""
+"If you need to display this weather anywhere in your theme, simply copy and "
+"paste this code snippet in your PHP file like sidebar.php: "
+msgstr ""
+"Ha kell, hogy megjelenjen ez az időjárás bárhol a téma, egyszerűen másolja "
+"be ezt a kódrészletet a PHP fájlt, mint sidebar.php-t: "
+
+#: owmweather.php:490
+msgid "Get weather by ..."
+msgstr ""
+
+#: owmweather.php:494
+#, fuzzy
+#| msgid "City"
+msgid "City Id"
+msgstr "Város"
+
+#: owmweather.php:495
+msgid "Longitude/Latitude"
+msgstr ""
+
+#: owmweather.php:496
+#, fuzzy
+#| msgid "Country?"
+msgid "Zip/Country"
+msgstr "Ország?"
+
+#: owmweather.php:497
+#, fuzzy
+#| msgid "Country?"
+msgid "City/Country"
+msgstr "Ország?"
+
+#: owmweather.php:498
+msgid "Visitor's Location"
+msgstr ""
+
+#: owmweather.php:502
+#, fuzzy
+#| msgid "Open Weather Map API key"
+msgid "OpenWeatherMap City Id"
+msgstr "Nyitott időjárás térkép API kulccsal"
+
+#: owmweather.php:502
+msgid "Find my City Id"
+msgstr ""
+
+#: owmweather.php:508
+msgid "Latitude"
+msgstr ""
+
+#: owmweather.php:512
+msgid "Longitude"
+msgstr ""
+
+#: owmweather.php:515
+msgid ""
+"If you enter an OpenWeatherMap City Id, it will automatically bypass the "
+"Latitude/Longitude fields."
+msgstr ""
+
+#: owmweather.php:519
+msgid "Zip code"
+msgstr ""
+
+#: owmweather.php:523
+msgid "2-letter country code"
+msgstr ""
+
+#: owmweather.php:523
+msgid "Default: US"
+msgstr ""
+
+#: owmweather.php:526
+msgid ""
+"If you enter an OpenWeatherMap City Id or Latitude/Longitude, it will "
+"automatically bypass the Zip and Country fields."
+msgstr ""
+
+#: owmweather.php:530
+msgid "City"
+msgstr "Város"
+
+#: owmweather.php:531
+msgid "Enter your city"
+msgstr "A városod"
+
+#: owmweather.php:534
+#, fuzzy
+#| msgid "Country?"
+msgid "Country"
+msgstr "Ország?"
+
+#: owmweather.php:537
+msgid ""
+"If you enter an OpenWeatherMap City Id, Latitude/Longitude or Zip/Country, "
+"it will automatically bypass the City and Country fields."
+msgstr ""
+
+#: owmweather.php:540
+msgid ""
+"Leave City Id, Longitude/Latitude, Zip/Country and City/Country empty to use "
+"the visitor's location."
+msgstr ""
+
+#: owmweather.php:547
+msgid "Custom city title"
+msgstr "Egyedi város neve"
+
+#: owmweather.php:551
+#, fuzzy
+#| msgid "cache system"
+msgid "Measurement system"
+msgstr "gyorsítótár rendszer"
+
+#: owmweather.php:558
+#, fuzzy
+#| msgid "Bypass date format?"
+msgid "Time format"
+msgstr "Bypass dátum formátum?"
+
+#: owmweather.php:565
+#, fuzzy
+#| msgid "Custom timezone? (default: WordPress general settings)"
+msgid "Timezone (default: WordPress general settings)"
+msgstr ""
+"Szokásos időzónát? (Alapértelmezett: WordPress általános beállításoknál)"
+
+#: owmweather.php:597
+#, fuzzy
+#| msgid "Open Weather Map API key"
+msgid "OpenWeatherMap language"
+msgstr "Nyitott időjárás térkép API kulccsal"
+
+#: owmweather.php:650 owmweather.php:745 owmweather.php:995
+msgid "Miscellaneous"
+msgstr ""
+
+#: owmweather.php:655
+msgid "Google Tag Manager dataLayer"
+msgstr ""
+
+#: owmweather.php:661
+msgid "Exclude from System Settings and Parameter Bypass"
+msgstr ""
+
+#: owmweather.php:667
+msgid ""
+"Select the information you would like to show on your weather shortcode."
+msgstr ""
+
+#: owmweather.php:670
+#, fuzzy
+#| msgid "Current weather?"
+msgid "Current weather"
+msgstr "Aktuális időjárás?"
+
+#: owmweather.php:675
+#, fuzzy
+#| msgid "Current weather?"
+msgid "Current weather city name"
+msgstr "Aktuális időjárás?"
+
+#: owmweather.php:699
+#, fuzzy
+#| msgid "Current weather?"
+msgid "Current weather short condition"
+msgstr "Aktuális időjárás?"
+
+#: owmweather.php:703
+msgid "Temperatures"
+msgstr "Hőmérsékletek"
+
+#: owmweather.php:712
+msgid "Date, Sunrise/Sunset and Moonrise/Moonset"
+msgstr ""
+
+#: owmweather.php:717
+#, fuzzy
+#| msgid "No date (default)?"
+msgid "No date (default)"
+msgstr "Nincs dátum (alapértelmezett)?"
+
+#: owmweather.php:729
+#, fuzzy
+#| msgid "Todays date (based on your WordPress General Settings)?"
+msgid "Today's date (based on your WordPress General Settings)"
+msgstr "Mai dátum (alapja a te WordPress Általános Beállításoknak)?"
+
+#: owmweather.php:754
+msgid "Wind unit: "
+msgstr ""
+
+#: owmweather.php:763
+msgid "Wind icons show "
+msgstr ""
+
+#: owmweather.php:766
+msgid " direction of the wind"
+msgstr ""
+
+#: owmweather.php:770
+msgid "source of wind flow"
+msgstr ""
+
+#: owmweather.php:822
+msgid "Alert Button color"
+msgstr ""
+
+#: owmweather.php:826
+msgid "Hourly Forecast"
+msgstr "Órai Előrejelzés"
+
+#: owmweather.php:829
+#, fuzzy
+#| msgid "Number of range hours forecast?"
+msgid "Number of hours"
+msgstr "Sor száma az órás előrejelzésnek?"
+
+#: owmweather.php:839
+#, fuzzy
+#| msgid "16-Day Forecast"
+msgid "Daily Forecast"
+msgstr "16 napi Előrejezés"
+
+#: owmweather.php:842
+#, fuzzy
+#| msgid "Number of days forecast"
+msgid "Number of days"
+msgstr "Előrejelzési napok száma"
+
+#: owmweather.php:858
+#, fuzzy
+#| msgid "Precipitation"
+msgid "Forecast Precipitations"
+msgstr "Csapadék"
+
+#: owmweather.php:864
+#, fuzzy
+#| msgid "Short days names?"
+msgid "Short day names"
+msgstr "Rövid napok neve?"
+
+#: owmweather.php:870
+#, fuzzy
+#| msgid "Normal days names?"
+msgid "Normal day names"
+msgstr "Normál napok neve?"
+
+#: owmweather.php:874
+msgid "Footer"
+msgstr ""
+
+#: owmweather.php:892
+msgid "Select the layout styling for your weather shortcode."
+msgstr ""
+
+#: owmweather.php:895
+#, fuzzy
+#| msgid "Temperatures"
+msgid "Template"
+msgstr "Hőmérsékletek"
+
+#: owmweather.php:913
+msgid "Font"
+msgstr ""
+
+#: owmweather.php:938
+msgid "Icon Pack"
+msgstr ""
+
+#: owmweather.php:939
+msgid ""
+"The main icon is always an animated SVG. If you want the icon from the icon "
+"pack instead, you need to select \"Disable animations for main icon\" below."
+msgstr ""
+
+#: owmweather.php:950
+msgid "Colors and Borders"
+msgstr ""
+
+#: owmweather.php:957
+#, fuzzy
+#| msgid "Background color"
+msgid "Background image"
+msgstr "Háttér szín"
+
+#: owmweather.php:974 owmweather.php:1038 owmweather.php:1074
+msgid "Border width (px)"
+msgstr ""
+
+#: owmweather.php:991 owmweather.php:1055 owmweather.php:1091
+msgid "Border radius (px)"
+msgstr ""
+
+#: owmweather.php:1000
+msgid "Disable loading spinner"
+msgstr ""
+
+#: owmweather.php:1023
+#, fuzzy
+#| msgid "Enabled"
+msgid "Tables"
+msgstr "Engedélyezett"
+
+#: owmweather.php:1059
+msgid "Charts"
+msgstr ""
+
+#: owmweather.php:1062
+#, fuzzy
+#| msgid "Map height (in px)"
+msgid "Height (in px)"
+msgstr "Térkép hossza (pixelbe)"
+
+#: owmweather.php:1095
+#, fuzzy
+#| msgid "Temperatures"
+msgid "Temperature color"
+msgstr "Hőmérsékletek"
+
+#: owmweather.php:1099
+msgid "Feels like color"
+msgstr ""
+
+#: owmweather.php:1103
+#, fuzzy
+#| msgid "Text color"
+msgid "Dew point color"
+msgstr "Szöveg szín"
+
+#: owmweather.php:1109
+msgid ""
+"Select the information and layout styling for the optional map on your "
+"weather shortcode."
+msgstr ""
+
+#: owmweather.php:1114
+#, fuzzy
+#| msgid "Display map?"
+msgid "Display map"
+msgstr "Térkép kijelzése?"
+
+#: owmweather.php:1118
+msgid "Map height (in px)"
+msgstr "Térkép hossza (pixelbe)"
+
+#: owmweather.php:1163
+#, fuzzy
+#| msgid "Disable zoom wheel on map?"
+msgid "Disable zoom wheel on map"
+msgstr "Zoom görgetés tiltása a térképen?"
+
+#: owmweather.php:1167
+msgid "Layers"
+msgstr "Rétegek"
+
+#: owmweather.php:1172
+#, fuzzy
+#| msgid "Display clouds?"
+msgid "Display clouds"
+msgstr "Felhők kijelzése?"
+
+#: owmweather.php:1178
+#, fuzzy
+#| msgid "Display precipitation?"
+msgid "Display precipitation"
+msgstr "Csapadék kijelzése?"
+
+#: owmweather.php:1184
+#, fuzzy
+#| msgid "Display snow?"
+msgid "Display snow"
+msgstr "Hó kijelzése?"
+
+#: owmweather.php:1190
+#, fuzzy
+#| msgid "Display wind?"
+msgid "Display wind"
+msgstr "Szél kijelzése?"
+
+#: owmweather.php:1196
+#, fuzzy
+#| msgid "Display temperature?"
+msgid "Display temperature"
+msgstr "Hőmérséklet kijelzése?"
+
+#: owmweather.php:1202
+#, fuzzy
+#| msgid "Display pressure?"
+msgid "Display pressure"
+msgstr "Nyomás kijelzése?"
+
+#: owmweather.php:1208
+#, fuzzy
+#| msgid "Display wind?"
+msgid "Display wind rose"
+msgstr "Szél kijelzése?"
+
+#: owmweather.php:1413
+msgid "Sunrise"
+msgstr ""
+
+#: owmweather.php:1413
+msgid "Sunset"
+msgstr ""
+
+#: owmweather.php:1424
+msgid "Moonrise"
+msgstr ""
+
+#: owmweather.php:1424
+msgid "Moonset"
+msgstr ""
+
+#: owmweather.php:1858
+#, fuzzy
+#| msgid "Last update: "
+msgid "Last updated: "
+msgstr "Utolsó frissítés:"
+
+#: owmweather.php:1887 owmweather.php:1890
+#, fuzzy
+#| msgid "Wind"
+msgid "in"
+msgstr "Szél"
+
+#: owmweather.php:1887
+msgid "hPa"
+msgstr ""
+
+#: owmweather.php:1890
+msgid "mm"
+msgstr ""
+
+#: owmweather.php:1911 owmweather.php:1995
+msgid "Sunday"
+msgstr "Vasárnap"
+
+#: owmweather.php:1914 owmweather.php:1998
+msgid "Monday"
+msgstr "Hétfő"
+
+#: owmweather.php:1917 owmweather.php:2001
+msgid "Tuesday"
+msgstr "Kedd"
+
+#: owmweather.php:1920 owmweather.php:2004
+msgid "Wednesday"
+msgstr "Szerda"
+
+#: owmweather.php:1923 owmweather.php:2007
+msgid "Thursday"
+msgstr "Csütörtök"
+
+#: owmweather.php:1926 owmweather.php:2010
+msgid "Friday"
+msgstr "Péntek"
+
+#: owmweather.php:1929 owmweather.php:2013
+msgid "Saturday"
+msgstr "Szombat"
+
+#: owmweather.php:1995
+msgid "Sun"
+msgstr "Nap"
+
+#: owmweather.php:1998
+msgid "Mon"
+msgstr "Hét"
+
+#: owmweather.php:2001
+msgid "Tue"
+msgstr "Ke"
+
+#: owmweather.php:2004
+msgid "Wed"
+msgstr "Sze"
+
+#: owmweather.php:2007
+msgid "Thu"
+msgstr "Csü"
+
+#: owmweather.php:2010
+msgid "Fri"
+msgstr "Pé"
+
+#: owmweather.php:2013
+msgid "Sat"
+msgstr "Szo"
+
+#: owmweather.php:2360 owmweather.php:2361 owmweather.php:2362
+#: owmweather.php:2782 owmweather.php:2872 owmweather.php:2913
+#: owmweather.php:3069
+msgid "Feels Like"
+msgstr ""
+
+#: owmweather.php:2425 owmweather.php:2456
+#, fuzzy
+#| msgid "Clouds?"
+msgid "Clouds"
+msgstr "Felhők"
+
+#: owmweather.php:2428 owmweather.php:2996
+msgid "Rain Chance"
+msgstr ""
+
+#: owmweather.php:2458
+msgid "Clouds Classic"
+msgstr ""
+
+#: owmweather.php:2464
+msgid "Rain"
+msgstr ""
+
+#: owmweather.php:2466
+msgid "Rain Classic"
+msgstr ""
+
+#: owmweather.php:2470
+#, fuzzy
+#| msgid "Precipitations?"
+msgid "Precipitation Classic"
+msgstr "Csapadék?"
+
+#: owmweather.php:2476 owmweather.php:3837
+#, fuzzy
+#| msgid "Snow?"
+msgid "Snow"
+msgstr "Hó?"
+
+#: owmweather.php:2488 owmweather.php:2774 owmweather.php:2864
+#: owmweather.php:2912 owmweather.php:3068
+#, fuzzy
+#| msgid "Temperatures"
+msgid "Temperature"
+msgstr "Hőmérsékletek"
+
+#: owmweather.php:2496
+#, fuzzy
+#| msgid "Pressure"
+msgid "Pressure Contour"
+msgstr "Nyomás"
+
+#: owmweather.php:2502
+#, fuzzy
+#| msgid "Wind"
+msgid "Wind rose"
+msgstr "Szél"
+
+#: owmweather.php:2690
+msgid "Close"
+msgstr ""
+
+#: owmweather.php:2717
+msgid "Full weather on OpenWeatherMap"
+msgstr "Teljes időjárás az Nyitott Időjárás Térkép"
+
+#: owmweather.php:2717
+msgid "Full weather"
+msgstr "Teljes Időjárás"
+
+#: owmweather.php:2765 owmweather.php:2806
+#, fuzzy
+#| msgid "Temperatures"
+msgid "Hourly Temperatures"
+msgstr "Hőmérsékletek"
+
+#: owmweather.php:2855 owmweather.php:2888
+#, fuzzy
+#| msgid "Temperatures"
+msgid "Daily Temperatures"
+msgstr "Hőmérsékletek"
+
+#: owmweather.php:2910 owmweather.php:3066
+msgid "Time"
+msgstr ""
+
+#: owmweather.php:2911 owmweather.php:2992 owmweather.php:3067
+#, fuzzy
+#| msgid "Short condition?"
+msgid "Conditions"
+msgstr "Rövid állapot?"
+
+#: owmweather.php:2916
+msgid "Amount"
+msgstr ""
+
+#: owmweather.php:2919 owmweather.php:3000 owmweather.php:3072
+msgid "Cloud Cover"
+msgstr ""
+
+#: owmweather.php:2929 owmweather.php:3010 owmweather.php:3079
+msgid "Gust"
+msgstr ""
+
+#: owmweather.php:2991
+#, fuzzy
+#| msgid "Display"
+msgid "Day"
+msgstr "Kijelző"
+
+#: owmweather.php:2993
+#, fuzzy
+#| msgid "Temperatures"
+msgid "Min Temperature"
+msgstr "Hőmérsékletek"
+
+#: owmweather.php:2994
+#, fuzzy
+#| msgid "Temperatures"
+msgid "Max Temperature"
+msgstr "Hőmérsékletek"
+
+#: owmweather.php:3187
+msgid "Shortcode"
+msgstr "Rövid kód"
+
+#: owmweather.php:3204
+#, fuzzy
+#| msgid "Weather"
+msgctxt "Post Type General Name"
+msgid "Weather"
+msgstr "Időjárás"
+
+#: owmweather.php:3205
+#, fuzzy
+#| msgid "Weather"
+msgctxt "Post Type Singular Name"
+msgid "Weather"
+msgstr "Időjárás"
+
+#: owmweather.php:3206
+#, fuzzy
+#| msgid "Weather"
+msgctxt "Post Type Menu Name"
+msgid "Weather"
+msgstr "Időjárás"
+
+#: owmweather.php:3207
+msgid "Parent Weather:"
+msgstr "Szülő Időjárás:"
+
+#: owmweather.php:3208
+msgid "All Weather"
+msgstr "Minden Időjárás"
+
+#: owmweather.php:3209
+msgid "View Weather"
+msgstr "Időjárás nézet"
+
+#: owmweather.php:3210
+msgid "Add New Weather"
+msgstr "Új időjárást hozzáad"
+
+#: owmweather.php:3211
+msgid "New Weather"
+msgstr "Új időjárás"
+
+#: owmweather.php:3212
+msgid "Edit Weather"
+msgstr "Időjárás szerkesztése"
+
+#: owmweather.php:3213
+msgid "Update Weather"
+msgstr "Időjárás frissítése"
+
+#: owmweather.php:3214
+msgid "Search Weather"
+msgstr "Időjárás keresés"
+
+#: owmweather.php:3215
+msgid "No weather found"
+msgstr "Időjárást nem talált"
+
+#: owmweather.php:3216
+msgid "No weather found in Trash"
+msgstr "Nem talált időjárást a kukába"
+
+#: owmweather.php:3220
+msgid "weather"
+msgstr "időjárás"
+
+#: owmweather.php:3221
+msgid "Listing weather"
+msgstr "Időjárás listázása"
+
+#: owmweather.php:3281
+msgid ""
+"OWM Weather: Please enter your own OpenWeatherMap API key to avoid exceeding "
+"daily API call limits."
+msgstr ""
+
+#: owmweather.php:3296
+msgid "Now"
+msgstr "Most"
+
+#: owmweather.php:3298
+msgid "Now + 1 hour"
+msgstr ""
+
+#: owmweather.php:3300
+msgid "Now + "
+msgstr ""
+
+#: owmweather.php:3300
+msgid " hours"
+msgstr ""
+
+#: owmweather.php:3310 owmweather.php:3318
+msgid "N"
+msgstr ""
+
+#: owmweather.php:3311
+msgid "NE"
+msgstr ""
+
+#: owmweather.php:3312
+msgid "E"
+msgstr ""
+
+#: owmweather.php:3313
+msgid "SE"
+msgstr ""
+
+#: owmweather.php:3314
+msgid "S"
+msgstr ""
+
+#: owmweather.php:3315
+msgid "SW"
+msgstr ""
+
+#: owmweather.php:3316
+msgid "W"
+msgstr ""
+
+#: owmweather.php:3317
+msgid "NW"
+msgstr ""
+
+#: owmweather.php:3807
+#, fuzzy
+#| msgid "thunderstorm with light rain"
+msgid "Thunderstorm with Light Rain"
+msgstr "zivatar"
+
+#: owmweather.php:3808
+#, fuzzy
+#| msgid "thunderstorm with rain"
+msgid "Thunderstorm with Rain"
+msgstr "eső"
+
+#: owmweather.php:3809
+#, fuzzy
+#| msgid "thunderstorm with heavy rain"
+msgid "Thunderstorm with Heavy Rain"
+msgstr "nagy eső"
+
+#: owmweather.php:3810
+#, fuzzy
+#| msgid "light thunderstorm"
+msgid "Light Thunderstorm"
+msgstr "enyhe vihar"
+
+#: owmweather.php:3811
+#, fuzzy
+#| msgid "thunderstorm"
+msgid "Thunderstorm"
+msgstr "vihar"
+
+#: owmweather.php:3812
+#, fuzzy
+#| msgid "heavy thunderstorm"
+msgid "Heavy Thunderstorm"
+msgstr "heves vihar"
+
+#: owmweather.php:3813
+#, fuzzy
+#| msgid "ragged thunderstorm"
+msgid "Ragged Thunderstorm"
+msgstr "tomboló vihar"
+
+#: owmweather.php:3814
+#, fuzzy
+#| msgid "thunderstorm with light drizzle"
+msgid "Thunderstorm with Light Drizzle"
+msgstr "zápor"
+
+#: owmweather.php:3815
+#, fuzzy
+#| msgid "thunderstorm with drizzle"
+msgid "Thunderstorm with Drizzle"
+msgstr "szitáló eső"
+
+#: owmweather.php:3816
+#, fuzzy
+#| msgid "thunderstorm with heavy drizzle"
+msgid "Thunderstorm with Heavy Drizzle"
+msgstr "sűrűn szitáló eső"
+
+#: owmweather.php:3817
+#, fuzzy
+#| msgid "light intensity drizzle"
+msgid "Light Intensity Drizzle"
+msgstr "enyhe szitáló eső"
+
+#: owmweather.php:3818
+#, fuzzy
+#| msgid "drizzle"
+msgid "Drizzle"
+msgstr "finoman szitáló eső"
+
+#: owmweather.php:3819
+#, fuzzy
+#| msgid "heavy intensity drizzle"
+msgid "Heavy Intensity Drizzle"
+msgstr "nagy intenzitású szitáló eső"
+
+#: owmweather.php:3820
+#, fuzzy
+#| msgid "light intensity drizzle rain"
+msgid "Light Intensity Drizzle Rain"
+msgstr "enyhe intenzitású szitáló eső"
+
+#: owmweather.php:3821
+#, fuzzy
+#| msgid "drizzle rain"
+msgid "Drizzle Rain"
+msgstr "szitáló eső"
+
+#: owmweather.php:3822
+#, fuzzy
+#| msgid "heavy intensity drizzle rain"
+msgid "Heavy Intensity Drizzle Rain"
+msgstr "erős intenzitású szitáló eső"
+
+#: owmweather.php:3823
+#, fuzzy
+#| msgid "shower rain and drizzle"
+msgid "Shower Rain and Drizzle"
+msgstr "enyhe zápor és szitálás"
+
+#: owmweather.php:3824
+#, fuzzy
+#| msgid "heavy shower rain and drizzle"
+msgid "Heavy Shower Rain and Drizzle"
+msgstr "erős zápor szitáló esővel"
+
+#: owmweather.php:3825
+#, fuzzy
+#| msgid "shower drizzle"
+msgid "Shower Drizzle"
+msgstr "zápor"
+
+#: owmweather.php:3826
+#, fuzzy
+#| msgid "light rain"
+msgid "Light Rain"
+msgstr "enyhe eső"
+
+#: owmweather.php:3827
+#, fuzzy
+#| msgid "moderate rain"
+msgid "Moderate Rain"
+msgstr "mérsékelt eső"
+
+#: owmweather.php:3828
+#, fuzzy
+#| msgid "heavy intensity rain"
+msgid "Heavy Intensity Rain"
+msgstr "nagy eső"
+
+#: owmweather.php:3829
+#, fuzzy
+#| msgid "very heavy rain"
+msgid "Very Heavy Rain"
+msgstr "kiadós eső"
+
+#: owmweather.php:3830
+#, fuzzy
+#| msgid "extreme rain"
+msgid "Extreme Rain"
+msgstr "szélsőséges esőzés"
+
+#: owmweather.php:3831
+#, fuzzy
+#| msgid "freezing rain"
+msgid "Freezing Rain"
+msgstr "ónos eső"
+
+#: owmweather.php:3832
+#, fuzzy
+#| msgid "light intensity shower rain"
+msgid "Light Intensity Shower Rain"
+msgstr "enyhe zivatar"
+
+#: owmweather.php:3833
+#, fuzzy
+#| msgid "shower rain"
+msgid "Shower Rain"
+msgstr "zivatar"
+
+#: owmweather.php:3834
+#, fuzzy
+#| msgid "heavy intensity shower rain"
+msgid "Heavy Intensity Shower Rain"
+msgstr "nagy zivatar"
+
+#: owmweather.php:3835
+#, fuzzy
+#| msgid "ragged shower rain"
+msgid "Ragged Shower Rain"
+msgstr "erős zivatar"
+
+#: owmweather.php:3836
+#, fuzzy
+#| msgid "light snow"
+msgid "Light Snow"
+msgstr "kevés hó"
+
+#: owmweather.php:3838
+#, fuzzy
+#| msgid "heavy snow"
+msgid "Heavy Snow"
+msgstr "erős havazás"
+
+#: owmweather.php:3839
+#, fuzzy
+#| msgid "sleet"
+msgid "Sleet"
+msgstr "ónos eső"
+
+#: owmweather.php:3840
+#, fuzzy
+#| msgid "shower sleet"
+msgid "Light Shower Sleet"
+msgstr "zivataros ónos eső"
+
+#: owmweather.php:3841
+#, fuzzy
+#| msgid "shower sleet"
+msgid "Shower Sleet"
+msgstr "zivataros ónos eső"
+
+#: owmweather.php:3842
+#, fuzzy
+#| msgid "light rain and snow"
+msgid "Light Rain and Snow"
+msgstr "kisebb havaseső"
+
+#: owmweather.php:3843
+#, fuzzy
+#| msgid "rain and snow"
+msgid "Rain and Snow"
+msgstr "havaseső"
+
+#: owmweather.php:3844
+#, fuzzy
+#| msgid "light shower snow"
+msgid "Light Shower Snow"
+msgstr "enyhe hózivatar"
+
+#: owmweather.php:3845
+#, fuzzy
+#| msgid "shower snow"
+msgid "Shower Snow"
+msgstr "hózivatar"
+
+#: owmweather.php:3846
+#, fuzzy
+#| msgid "heavy shower snow"
+msgid "Heavy Shower Snow"
+msgstr "heves hózápor, nagy hózivatar"
+
+#: owmweather.php:3847
+msgid "Mist"
+msgstr ""
+
+#: owmweather.php:3848
+#, fuzzy
+#| msgid "smoke"
+msgid "Smoke"
+msgstr "füst"
+
+#: owmweather.php:3849
+msgid "Haze"
+msgstr ""
+
+#: owmweather.php:3850
+#, fuzzy
+#| msgid "sand, dust whirls"
+msgid "Sand / Dust Whirls"
+msgstr "porfelhő"
+
+#: owmweather.php:3851
+#, fuzzy
+#| msgid "fog"
+msgid "Fog"
+msgstr "köd"
+
+#: owmweather.php:3852
+msgid "Sand"
+msgstr ""
+
+#: owmweather.php:3853
+msgid "Dust"
+msgstr ""
+
+#: owmweather.php:3854
+msgid "Volcanic Ash"
+msgstr ""
+
+#: owmweather.php:3855
+msgid "Squalls"
+msgstr ""
+
+#: owmweather.php:3856
+#, fuzzy
+#| msgid "tornado"
+msgid "Tornado"
+msgstr "tornádó"
+
+#: owmweather.php:3857
+#, fuzzy
+#| msgid "clear sky"
+msgid "Clear sky"
+msgstr "tiszta égbolt"
+
+#: owmweather.php:3858
+#, fuzzy
+#| msgid "few clouds"
+msgid "Few Clouds"
+msgstr "kissé felhős"
+
+#: owmweather.php:3859
+#, fuzzy
+#| msgid "scattered clouds"
+msgid "Scattered Clouds"
+msgstr "szétszórt felhőzet"
+
+#: owmweather.php:3860
+#, fuzzy
+#| msgid "broken clouds"
+msgid "Broken Clouds"
+msgstr "felszakadozott felhőzet"
+
+#: owmweather.php:3861
+#, fuzzy
+#| msgid "overcast clouds"
+msgid "Overcast Clouds"
+msgstr "borús égbolt"
+
+#: template/content-owmweather-slider1.php:29
+#: template/content-owmweather-slider2.php:23
+#: template/content-owmweather-table2.php:13
+msgid "Prev"
+msgstr ""
+
+#: template/content-owmweather-slider1.php:31
+#: template/content-owmweather-slider2.php:25
+#: template/content-owmweather-table2.php:15
+msgid "Next"
+msgstr ""
+
+#~ msgid "Wind?"
+#~ msgstr "Szél?"
+
+#~ msgid "Humidity?"
+#~ msgstr "Páratartalom?"
+
+#~ msgid "Pressure?"
+#~ msgstr "Nyomás"
+
+#~ msgid "Cloudiness?"
+#~ msgstr "Felhőzet?"
+
+#~ msgid "Precipitation?"
+#~ msgstr "Csapadék?"
+
+#, fuzzy
+#~| msgid "Background color"
+#~ msgid "Background color?"
+#~ msgstr "Háttér szín"
+
+#, fuzzy
+#~| msgid "Text color"
+#~ msgid "Text color?"
+#~ msgstr "Szöveg szín"
+
+#, fuzzy
+#~| msgid "Border color"
+#~ msgid "Border color?"
+#~ msgstr "Keret szín"
+
+#, fuzzy
+#~| msgid "Border color"
+#~ msgid "Border style?"
+#~ msgstr "Keret szín"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom CSS?"
+#~ msgstr "Egyéni CSS"
+
+#~ msgid "Map?"
+#~ msgstr "Térkép?"
+
+#, fuzzy
+#~| msgid "Layers opacity"
+#~ msgid "Layers opacity?"
+#~ msgstr "Rétegek átlátszósága"
+
+#, fuzzy
+#~| msgid "Zoom"
+#~ msgid "Zoom?"
+#~ msgstr "Zoom"
+
+#, fuzzy
+#~| msgid "Disable weather cache? (not recommended)"
+#~ msgid "Disable weather cache? (Not recommended!)"
+#~ msgstr "Tiltsa időjárás gyorsítótárat? (nem ajánlott)"
+
+#~ msgid "Day of the week (eg: Sunday)?"
+#~ msgstr "A hét napja (pl: vasárnap)?"
+
+#, fuzzy
+#~| msgid "How many days?"
+#~ msgid "How many hours?"
+#~ msgstr "Hány napos"
+
+#~ msgid "How many days?"
+#~ msgstr "Hány napos"
+
+#~ msgid "The best freemium plugin to boost your SEO with WordPress."
+#~ msgstr "A legjobb freemium plugin, hogy növelje SEO-val a WordPress-t."
+
+#~ msgid "Download for free"
+#~ msgstr "Letöltés ingyen"
+
+#~ msgid "Advanced"
+#~ msgstr "Haladó"
+
+#~ msgid "$ 19 / year"
+#~ msgstr "$ 19 / év"
+
+#~ msgid ""
+#~ "Join now to get Skins & Geolocation Add-ons, and premium support by email."
+#~ msgstr ""
+#~ "Csatlakozz most, hogy Skins & Geolocation bővítményhez és prémium "
+#~ "támogatáshoz e-mailben."
+
+#~ msgid "Join now"
+#~ msgstr "Csatlakozz most"
+
+#~ msgid "Bypass unit?"
+#~ msgstr "Bypass egység?"
+
+#~ msgid "Unit"
+#~ msgstr "Egység"
+
+#~ msgid "Bypass the todays date format?"
+#~ msgstr "A jelenlegi dátumformátum megkerülése?"
+
+#~ msgid "Todays date or day of the week?"
+#~ msgstr "A mai dátum vagy a hét napja?"
+
+#~ msgid "Hour forecast?"
+#~ msgstr "Órás előrejelzés?"
+
+#~ msgid "Bypass number of hours forecast settings?"
+#~ msgstr "Bypass órák száma az előrejelzést beállításoknál?"
+
+#~ msgid "Bypass individual temperatures settings?"
+#~ msgstr "Bypass egyéni hőmérséklet beállítások?"
+
+#~ msgid "Today temperature?"
+#~ msgstr "Mai hőmérséklet?"
+
+#, fuzzy
+#~| msgid "16-Day Forecast"
+#~ msgid "5-Days Forecast"
+#~ msgstr "16 napi Előrejezés"
+
+#~ msgid "Bypass number of days forecast settings?"
+#~ msgstr "Bypass napok száma az előrejelzési beállításoknál?"
+
+#~ msgid "Bypass the length of name days?"
+#~ msgstr "Bypass a névnapok hossza?"
+
+#~ msgid "Fluid design?"
+#~ msgstr "Cseppfolyós design?"
+
+#~ msgid "Default Max width parent container (in pixels)?"
+#~ msgstr "Alapértelmezett maximális szélesség szülő tároló (képpontban)?"
+
+#~ msgid "CSS 3 Animations"
+#~ msgstr "CSS 3 Animációk"
+
+#~ msgid "Size"
+#~ msgstr "Méret"
+
+#~ msgid "Bypass layers opacity?"
+#~ msgstr "Bypass rétegek átlátszósága"
+
+#~ msgid "Bypass zoom?"
+#~ msgstr "Bypass zoom?"
+
+#~ msgid "Stations?"
+#~ msgstr "Állomások?"
+
+#~ msgid "Advanced settings to bypass:"
+#~ msgstr "Haladó beállítások a bypassnál:"
+
+#~ msgid "Enable bypass unit on all weather?"
+#~ msgstr "Engedélyezi a bypass egységet minden időjárásnál"
+
+#~ msgid "Enable bypass date format on all weather?"
+#~ msgstr "Engedélyezi a bypass dátum formátumot minden időjárásnál?"
+
+#~ msgid "Display current weather on all weather?"
+#~ msgstr "Kijelzi az aktuális időjárást minden időjárásnál?"
+
+#~ msgid "Display short condition on all weather?"
+#~ msgstr "Rövid feltételű kijelzés minden időjárásra?"
+
+#~ msgid "Bypass todays date format?"
+#~ msgstr "Bypass a mai dátum formátum?"
+
+#~ msgid "None (default)?"
+#~ msgstr "Nincs (alapértelmezett)?"
+
+#~ msgid "Display temperatures unit (C / F)?"
+#~ msgstr "Kijelzi a hőmérsékleti egységet (C / F)?"
+
+#~ msgid "Display sunrise - sunset on all weather?"
+#~ msgstr "Kijelző napkelte - napnyugta minden időjárásra?"
+
+#~ msgid "Display humidity on all weather?"
+#~ msgstr "Páratartalom kijelzése minden időjárásra?"
+
+#~ msgid "Display cloudiness on all weather?"
+#~ msgstr "Felhősség kijelzés minden időjárásra?"
+
+#~ msgid "Display precipitation on all weather?"
+#~ msgstr "Csapadék kijelzése minden időjárásra?"
+
+#~ msgid "Display hour forecast on all weather?"
+#~ msgstr "Órás előrejlzés kijelzése minden időjárásra?"
+
+#~ msgid "Enable bypass number of hours forecast on all weather?"
+#~ msgstr "Bypass szám engedélyezése az órás előrejelzéshez minden időjárásra?"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "Display today temperature on all weather?"
+#~ msgstr "A kijelzi a mai hőmérséklet minden időjárásnál?"
+
+#, fuzzy
+#~| msgid "Display 16-day Forecast on all weather?"
+#~ msgid "Display 5-days Forecast on all weather?"
+#~ msgstr "Kijelzi 16 napos előrejelzést minden időjárásra?"
+
+#~ msgid "Enable bypass number of days forecast on all weather?"
+#~ msgstr "Bypass szám engedélyezése a napi előrejelzés minden időjárásnál?"
+
+#~ msgid "1 day"
+#~ msgstr "1 nap"
+
+#~ msgid "2 days"
+#~ msgstr "2 nap"
+
+#~ msgid "3 days"
+#~ msgstr "3 nap"
+
+#~ msgid "4 days"
+#~ msgstr "4 nap"
+
+#~ msgid "5 days"
+#~ msgstr "5 nap"
+
+#~ msgid "Display Forecast Precipitations on all Weather?"
+#~ msgstr "A csapadék előrejelzése minden időjárással kapcsolatban?"
+
+#~ msgid "Display link to full weather on OpenWeatherMap?"
+#~ msgstr "A teljes időjárs Link kijelzése az Nyitott Időjárás Térképen?"
+
+#~ msgid "Display update date on all weather?"
+#~ msgstr "Kijelző dátum frissítés minden időjárásra?"
+
+#~ msgid "Enable bypass size on all weather?"
+#~ msgstr "Engedélyezze a bypass méretét minden időjárásnál?"
+
+#~ msgid "Enable map on all weather?"
+#~ msgstr "Engedélyezze a térképet minden időjárásnál?"
+
+#~ msgid "Enable bypass map opacity on all weather?"
+#~ msgstr "Bypass térkép átlátszóság engedélyezése minden időjárásnál? "
+
+#~ msgid "Enable bypass map zoom on all weather?"
+#~ msgstr "Bypass térkép zoom engedélyezése minden időjárásnál?"
+
+#~ msgid "Disable zoom wheel on all weather?"
+#~ msgstr "Kikapcsolja a zoom görgőt minden időjárásnál?"
+
+#~ msgid "Display stations on all weather maps?"
+#~ msgstr "Állomások kijelzése minden időjárás térképen?"
+
+#~ msgid "Display clouds on all weather maps?"
+#~ msgstr "Felhők kijelzése minden időjárás térképen?"
+
+#~ msgid "Display precipitations on all weather maps?"
+#~ msgstr "Csapadék kijelzése minden időjárás térképen?"
+
+#~ msgid "Display snow on all weather maps?"
+#~ msgstr "Hó kijelzése minden időjárás térképen?"
+
+#~ msgid "Display wind on all weather maps?"
+#~ msgstr "Szél kijelzése minden időjárás térképen?"
+
+#~ msgid "Display temperatures on all weather maps?"
+#~ msgstr "Hőmérséklet kijelzése minden időjárás térképen?"
+
+#~ msgid "Display pressure on all weather maps?"
+#~ msgstr "Nyomás kijelzése minden időjárás térképen?"
+
+#~ msgid "FAQ"
+#~ msgstr "Gyakran Intézett Kérdések"
+
+#~ msgid "Read our FAQ"
+#~ msgstr "Olvasd el a mi Gyakran Intézett Kérdéseinket"
+
+#~ msgid "Guides"
+#~ msgstr "Útmutatók"
+
+#~ msgid "Read our Guides"
+#~ msgstr "Olvasd ami útmutatók"
+
+#~ msgid "State?"
+#~ msgstr "Állam?"
+
+#~ msgid "Imperial or metric units?"
+#~ msgstr "Angolszász vagy metrikus mértékegységben?"
+
+#~ msgid "12h / 24h date format?"
+#~ msgstr "12 órás / 24 órás dátum formátum?"
+
+#~ msgid "Sunrise + sunset? appears only if today date is checked"
+#~ msgstr ""
+#~ "Napkelte + naplemente? csak akkor jelenik meg, ha a mai dátum van jelölve"
+
+#~ msgid "How hours ranges ?"
+#~ msgstr "Hogyan terjed óráig?"
+
+#~ msgid ""
+#~ "Make sure you have properly set the date of your site in WordPress "
+#~ "settings."
+#~ msgstr ""
+#~ "Győződjön meg róla, hogy megfelelően állítja be a dátumot a webhely a "
+#~ "WordPress beállításoknál."
+
+#, fuzzy
+#~| msgid "16-Day Forecast? (today + 15 days max)"
+#~ msgid "5-Day Forecast? (today + 5 days max)"
+#~ msgstr "16 napos Előrejelzést? (ma + 15 napos max)"
+
+#~ msgid "Fluid design? (useful with small container)"
+#~ msgstr "Folyékony design? (Hasznos a kis tároló)"
+
+#~ msgid "Max width parent container to enable fluid design (pixels):"
+#~ msgstr "Max szélesség szülőtárolónál, hogy folyékony design (képpont):"
+
+#~ msgid "Disable CSS3 animations?"
+#~ msgstr "Tiltja a CSS3 animációt?"
+
+#~ msgid "Unable to retrieve weather data"
+#~ msgstr "Nem sikerült lekérdezni az időjárási adatokat"
+
+#~ msgid "snow"
+#~ msgstr "hó"
+
+#~ msgid "mist"
+#~ msgstr "köd"
+
+#~ msgid "haze"
+#~ msgstr "köd"
+
+#~ msgid "tropical storm"
+#~ msgstr "trópusi vihar"
+
+#~ msgid "hurricane"
+#~ msgstr "hurrikán"
+
+#~ msgid "windy"
+#~ msgstr "szeles"
+
+#~ msgid "hail"
+#~ msgstr "jégeső"
+
+#~ msgid " updated."
+#~ msgstr "frissített."
+
+#~ msgid "Custom field updated."
+#~ msgstr "Aktuális mező mentése"
+
+#~ msgid "Custom field deleted."
+#~ msgstr "Aktuális mező törlése"
+
+#, php-format
+#~ msgid " restored to revision from %s"
+#~ msgstr "felülvizsgálat helyreállítása %s"
+
+#~ msgid " published."
+#~ msgstr "közzétett"
+
+#~ msgid "Page saved."
+#~ msgstr "Oldal mentése."
+
+#~ msgid " submitted."
+#~ msgstr "beállított."
+
+#, php-format
+#~ msgid " scheduled for: <strong>%1$s</strong>. "
+#~ msgstr " ütemezett: <strong>%1$s</strong>. "
+
+#~ msgid "M j, Y @ G:i"
+#~ msgstr "M j, Y @ G:i"
+
+#~ msgid " draft updated."
+#~ msgstr "tervezet frissítve."
+
+#~ msgid "6 days"
+#~ msgstr "6 nap"
+
+#~ msgid "7 days"
+#~ msgstr "7 nap"
+
+#~ msgid "8 days"
+#~ msgstr "8 nap"
+
+#~ msgid "9 days"
+#~ msgstr "9 nap"
+
+#~ msgid "10 days"
+#~ msgstr "10 nap"
+
+#~ msgid "11 days"
+#~ msgstr "11 nap"
+
+#~ msgid "12 days"
+#~ msgstr "12 nap"
+
+#~ msgid "13 days"
+#~ msgstr "13 nap"
+
+#~ msgid "14 days"
+#~ msgstr "14 nap"
+
+#~ msgid "15 days"
+#~ msgstr "15 nap"
+
+#~ msgid "Load JS/CSS from:"
+#~ msgstr "JS/CSS betöltése:"
+
+#~ msgid ""
+#~ "The best freemium plugin to customize WordPress administration in seconds."
+#~ msgstr ""
+#~ "A legjobb freemium plugin testreszabása WordPress adminisztrációs "
+#~ "felületen másodpercek alatt."
+
+#~ msgid "Lenght name days:"
+#~ msgstr "Névnapok hossza:"
